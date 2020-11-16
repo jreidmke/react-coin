@@ -4,7 +4,11 @@ const Coin = () => {
 
     //flip stuff
     const [rand, setRand] = useState(0);
-    const flip = () => setRand(Math.random());
+    const flip = () => {
+        setRand(Math.random());
+        rand > .5 ? setHeadCount(headCount + 1): setTailCount(tailCount + 1);
+        setCount(count + 1);
+    }
     const heads = rand > .5;
 
     //counter stuff
