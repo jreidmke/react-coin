@@ -3,7 +3,6 @@ const Carpet = () => {
         <div>
             <h1>Let's flip this coin.</h1>
             <Coin/>
-            <Counter/>
         </div>
     )
 }
