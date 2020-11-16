@@ -1,3 +1,5 @@
+import Coin from './Coin';
+
 const Carpet = () => {
     return(
         <div>
@@ -6,3 +8,5 @@ const Carpet = () => {
         </div>
     )
 }
+
+export default Carpet;

@@ -1,5 +1,4 @@
 import {React, useState} from 'react';
-
 const Coin = () => {
 
     //flip stuff
@@ -8,6 +7,7 @@ const Coin = () => {
         setRand(Math.random());
         rand > .5 ? setHeadCount(headCount + 1): setTailCount(tailCount + 1);
         setCount(count + 1);
+
     }
     const heads = rand > .5;
 
